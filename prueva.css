@@ -1,0 +1,59 @@
+/*
+  styles.css - Hoja de Estilo para Mi Primera Página Web
+*/
+
+/* --- Estilos Generales (body) --- */
+body {
+    font-family: 'Arial', sans-serif; /* Define una fuente legible */
+    background-color: #f4f4f9;        /* Fondo gris claro */
+    color: #333;                      /* Color de texto principal gris oscuro */
+    margin: 0;                        /* Elimina el margen por defecto del navegador */
+    padding: 0;
+    line-height: 1.6;                 /* Mejora la legibilidad del texto */
+}
+
+/* --- Estilos para Encabezado (header) --- */
+header {
+    background-color: #007bff;        /* Fondo azul brillante */
+    color: white;                     /* Texto blanco */
+    padding: 20px 0;                  /* Espacio interno arriba y abajo */
+    text-align: center;               /* Centra el texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+}
+
+header h1 {
+    margin: 0;                        /* Elimina el margen por defecto del h1 */
+}
+
+/* --- Estilos para Contenido Principal (main) --- */
+main {
+    max-width: 800px;                 /* Limita el ancho del contenido principal */
+    margin: 20px auto;                /* Centra el contenido horizontalmente y añade margen superior/inferior */
+    padding: 20px;
+    background-color: white;          /* Fondo blanco para el contenido */
+    border-radius: 8px;               /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Estilos para Listas (ul) --- */
+ul {
+    list-style-type: square;          /* Cambia los puntos de la lista por cuadrados */
+    padding-left: 20px;
+}
+
+/* --- Estilos para Pie de Página (footer) --- */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;          /* Fondo gris oscuro */
+    color: #fff;                     /* Texto blanco */
+    font-size: 0.9em;                /* Letra ligeramente más pequeña */
+    position: fixed;                 /* Fija el footer al final de la ventana (si el contenido es corto) */
+    bottom: 0;
+    width: 100%;
+}
+
+/* --- Estilos para Enfatizar texto (strong) --- */
+strong {
+    color: #d9534f;                  /* Color rojo para el texto resaltado */
+}
